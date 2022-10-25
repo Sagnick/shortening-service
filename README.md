@@ -11,7 +11,9 @@ Converts userdefined url to short/custom url
 
 # Swagger
 [Swagger](http://localhost:8081/shortening-service/swagger-ui/index.html)<br />
-**Note: localhost 8081 refers to the port on which spring boot application runs**
+**Note:**
+<li>localhost 8081 refers to the port on which spring boot application runs</li>
+<li>Without running the spring boot application swagger will not work</li>
 
 # Services
 [Post-Url which needs to be shortend](http://localhost:8081/shortening-service/v1/shortening) <br/>
