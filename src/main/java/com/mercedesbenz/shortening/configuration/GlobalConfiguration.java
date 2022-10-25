@@ -10,10 +10,10 @@ import org.springframework.core.env.Environment;
 @PropertySource("classpath:errorcode.properties")
 @PropertySource("classpath:errormessage.properties")
 public class GlobalConfiguration {
-	
+
 	@Autowired
 	private Environment enviroment;
-	
+
 	public String getValueFromString(String key) {
 		return enviroment.getProperty(key);
 	}
